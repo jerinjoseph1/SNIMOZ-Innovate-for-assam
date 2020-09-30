@@ -1,0 +1,49 @@
+import 'package:snimoz/constants/keys.dart';
+
+const List<Map<String, String>> VEHICLE_REGISTRATION_DATA_SET = [
+  {
+    VEHICLE_NUMBER: "AS01B1234",
+    REGISTRATION_NAME: "Raj",
+    VEHICLE_TYPE: "MCWG",
+    VEHICLE_COLOR: "Red",
+    VEHICLE_MODEL: "Bajaj Auto",
+  },
+  {
+    VEHICLE_NUMBER: "AS01C1111",
+    REGISTRATION_NAME: "Khan",
+    VEHICLE_TYPE: "MCWG",
+    VEHICLE_COLOR: "Black",
+    VEHICLE_MODEL: "Mahindra Xuv",
+  },
+  {
+    VEHICLE_NUMBER: "AS02AD9898",
+    REGISTRATION_NAME: "Radha",
+    VEHICLE_TYPE: "LMV",
+    VEHICLE_COLOR: "White",
+    VEHICLE_MODEL: "Activa",
+  }
+];
+
+const List<Map<String, dynamic>> LICENCE_DATA_SET = [
+  {
+    LICENCE_NUMBER: "AS0101234567890",
+    LICENCE_NAME: "Raj",
+    LICENCE_DOB: "07/07/1993",
+    LICENCE_VALIDITY: "05/05/2030",
+    LICENCE_CATEGORIES: ["MCWG", "LMV"],
+  },
+  {
+    LICENCE_NUMBER: "AS0101234567891",
+    LICENCE_NAME: "Khan",
+    LICENCE_DOB: "03/03/1996",
+    LICENCE_VALIDITY: "05/05/2034",
+    LICENCE_CATEGORIES: ["LMV"],
+  },
+  {
+    LICENCE_NUMBER: "AS0101234567892",
+    LICENCE_NAME: "Radha",
+    LICENCE_DOB: "24/04/1995",
+    LICENCE_VALIDITY: "05/05/2033",
+    LICENCE_CATEGORIES: ["MCWG"],
+  }
+];
